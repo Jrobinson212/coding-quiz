@@ -1,0 +1,39 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+border: 1px solid blue;
+}
+body{
+    background-color: rgb(73, 50, 73);
+}
+
+P{
+    color: black;
+    font-size:1em
+}
+
+.outer-div {
+    padding: 10px;
+    height: 100vh;
+}
+
+ button {
+ background-color: rgb(77, 64, 64);
+ outline: none;
+ color: white;
+ font-size: 1em;
+}
+
+.outer-div {
+    padding: 10px;
+}
+.top-bar p{
+float: right;
+}
+
+.inner-div{
+    background-color: black;
+    height:
+}
