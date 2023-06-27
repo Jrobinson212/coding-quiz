@@ -1,39 +1,75 @@
 *{
-padding: 0;
+padding: 2px;
 margin: 0;
 box-sizing: border-box;
+color: white;
 
-border: 1px solid blue;
+}
+
+h1, h2, h3{
+    color:bisque;
+    text-align: center;
 }
 body{
     background-color: rgb(73, 50, 73);
+    font: white;
 }
 
 P{
-    color: black;
-    font-size:1em
+    color: rgb(243, 241, 241);
+    font-size:1.2em
+}
+
+li{
+    list-style: none;
 }
 
 .outer-div {
     padding: 10px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
  button {
- background-color: rgb(77, 64, 64);
+ background-color: rgb(134, 8, 8);
  outline: none;
  color: white;
  font-size: 1em;
 }
 
-.outer-div {
-    padding: 10px;
-}
 .top-bar p{
 float: right;
 }
 
 .inner-div{
     background-color: black;
-    height:
+    height: 100%;
+     margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz-intro{
+    text-align: center;
+  display:none;
+}
+
+main {
+    display: none;
+}
+
+
+.questions {
+    display:none;
+}
+
+.quiz-complete {
+    display:none;
+}
+
+.high-scores{
+    display:block;
 }

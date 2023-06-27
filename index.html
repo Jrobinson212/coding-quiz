@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
-    <title>Web Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <title> Web Quiz</title>
 </head>
     <body>
     <!--outer div --->
@@ -19,22 +19,59 @@
         <!---inner div-->
             <div class="inner-div">
 
-            </div>
+            
 
         <!--Quiz intro-->
             <header class="quiz-intro">
+                <h1>Welcome to the Coding quiz </h1>
+                <p>In this quiz you will be prompted with a series of multiple choice questions about coding, to begin please press start. </p>
+                <button>Start Quiz</button>
 
             </header>
 
             <!--quiz content-->
             <main>
+                <section class="questions">
+                    <h2>...........Question............</h2>
+                    <ul>
+                        <!--generated through js--->
+                        <li><button>Answer 1</button></li>
+                        <li><button>Answer 2</button></li>
+                        <li><button>Answer 3</button></li>
+                        <li><button>Answer 4</button></li>
+                    </ul>
 
+                </section>
+
+                
             </main>
-        
+            <section class="quiz-complete">
+                <h2>Quiz finished</h2>
+
+                <p>Your Score:00</p>
+
+               <p>Enter Intials <input type="text"><button>Sumbit</button></p>
     
+    
+            </section>
 
 
+            <section class="high-scores">
+                <h2>High Scores</h2>
+                <ol>  <!--generated through js--->
+                    <li>Jr 20</li>
+                    <li>KI 5</li>
+                    <li>LO 2</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                 </ol>
+                 <button>Restart Quiz</button>
+                 <button>Clear High scores</button>
 
+            </section>
+        </div> 
+                
         </div>
         <script  src="script.js">
         </script>
