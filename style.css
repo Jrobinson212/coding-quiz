@@ -52,9 +52,9 @@ float: right;
     justify-content: center;
 }
 
-.quiz-intro{
+.start-screen{
     text-align: center;
-  display:none;
+  /* display:none; */
 }
 
 main {
@@ -66,10 +66,10 @@ main {
     display:none;
 }
 
-.quiz-complete {
+#quiz-complete {
     display:none;
 }
 
-.high-scores{
-    display:block;
+.high-scores {
+    display:none;
 }

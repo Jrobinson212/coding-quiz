@@ -13,8 +13,8 @@
 
         <!--timer div-->
             <div class="top-bar">
-                <button>View high scores</button>
-                <p>Timer 0:00 </p>
+                <button id="highscores-btn">View high scores</button>
+                <p class="timer">Timer 60s </p>
             </div>
         <!---inner div-->
             <div class="inner-div">
@@ -22,35 +22,37 @@
             
 
         <!--Quiz intro-->
-            <header class="quiz-intro">
+            <header class="start-screen">
                 <h1>Welcome to the Coding quiz </h1>
                 <p>In this quiz you will be prompted with a series of multiple choice questions about coding, to begin please press start. </p>
-                <button>Start Quiz</button>
+                <button id="startBtn">Start Quiz</button>
 
             </header>
 
             <!--quiz content-->
             <main>
-                <section class="questions">
+                <section id="question-doc" class="hidden">
                     <h2>...........Question............</h2>
-                    <ul>
+                    <div id="user-answers">
                         <!--generated through js--->
-                        <li><button>Answer 1</button></li>
+                        <!-- <li><button>Answer 1</button></li>
                         <li><button>Answer 2</button></li>
                         <li><button>Answer 3</button></li>
-                        <li><button>Answer 4</button></li>
-                    </ul>
+                        <li><button>Answer 4</button></li> -->
+                        <button id="next-btn">Next</button>
+                        </div>
 
                 </section>
 
                 
             </main>
-            <section class="quiz-complete">
+            <section id="quiz-complete" class="hidden">
                 <h2>Quiz finished</h2>
 
                 <p>Your Score:00</p>
 
-               <p>Enter Intials <input type="text"><button>Sumbit</button></p>
+               <p>Enter Intials: <input type="text" id ="store-initals">
+                <button id="submit">Sumbit</button></p>
     
     
             </section>
@@ -59,14 +61,14 @@
             <section class="high-scores">
                 <h2>High Scores</h2>
                 <ol>  <!--generated through js--->
-                    <li>Jr 20</li>
+                    <!-- <li>Jr 20</li>
                     <li>KI 5</li>
                     <li>LO 2</li>
                     <li></li>
                     <li></li>
-                    <li></li>
+                    <li></li> -->
                  </ol>
-                 <button>Restart Quiz</button>
+                 <button id ="return">Go back</button>
                  <button>Clear High scores</button>
 
             </section>
